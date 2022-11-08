@@ -1,5 +1,5 @@
 # [LeetCode](https://leetcode.com/problemset/algorithms/)
-## LEETCODE QUESTIONS SOLUTION ANS APPROACH
+## LEETCODE QUESTIONS SOLUTION AND APPROACH
 
 ### This repo is created to keep track of daily problems I solve along with my approach and thinking process
 
