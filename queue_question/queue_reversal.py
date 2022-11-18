@@ -1,4 +1,4 @@
-# Day 
+# Day 16
 #QUEUE REVERSAL
 
 #Problem link:https://practice.geeksforgeeks.org/problems/queue-reversal/1
