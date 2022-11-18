@@ -41,3 +41,12 @@ q=rev(q)
 print('after reversal queue',q.queue)
 
 
+# another way : we can use recursion to go throught the queue and check if queue is empty , we could contain value of each queue in each recursion call and after reaching the end we start adding into queue
+
+# rev(queue):
+#   if(not queue):return
+#   value =queue.val 
+#   queue.pop()
+#   rev(queue)
+#   queue.put(value)
+
