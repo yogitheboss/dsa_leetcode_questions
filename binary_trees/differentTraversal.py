@@ -1,6 +1,8 @@
 #Day 24
+#Day 27
+#problem link day 24 : https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
+#problem link day 27:https://leetcode.com/problems/binary-tree-level-order-traversal/
 
-#problem link : https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
 
 # Given a binary tree of size N, find its reverse level order traversal. ie- the traversal must begin from the last level.
 # Example 1:
@@ -85,10 +87,13 @@ def printLevel(root,level):
     printLevel(root.left,level-1)
     printLevel(root.right,level-1)
 
+
+#DAY 27
 def printLevelOrder(root):
     height=depth(root)
     for i in range(1,height+1):
         printLevel(root,i)
+#DAY 24
 def printReversalLevelOrder(root):
     height=depth(root)
     for i in reversed(range(1,height+1)):
